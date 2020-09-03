@@ -1,0 +1,25 @@
+{
+  "name": "type-script-api",
+  "version": "1.0.0",
+  "description": "Nods.js API",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "typescript"
+  ],
+  "author": "Pedro Dalpa",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/module-alias": "^2.0.0",
+    "@types/node": "^14.6.4",
+    "typescript": "^4.0.2"
+  },
+  "dependencies": {
+    "module-alias": "^2.2.2"
+  }
+}
